@@ -582,6 +582,198 @@
 
 
 
+// // 31.Write a program to take a number in a variable, do the
+// // required arithmetic to display the following result in your
+// // browser:
+
+
+// var num = 10;
+// document.write("<h1>Results</h1><br>the value of a is:"+num)
+// ++num
+// document.write("<br> the value of ++a is:"+num)
+// document.write("<br>  now the value of a is:"+num)
+// num++
+// document.write("<br> the value of a++ is:"+num)
+// document.write("<br> now the value of a is:"+num)
+// --num
+// document.write("<br> now the value of --a is:"+num)
+// document.write("<br> now the value of a is:"+num)
+// num--
+// document.write("<br> the value of a-- is:"+num)
+// document.write("<br> now the value of a is:"+num)
+
+
+
+
+
+
+
+
+
+
+// // 32. What will be the output in variables a, b & result after
+// // execution of the following script:
+// // var a = 2, b = 1;
+// // var result = --a - --b + ++b + b--;
+// // Explain the output at each stage:
+// // --a;
+// // --a - --b;
+// // --a - --b + ++b;
+// // --a - --b + ++b + b--;
+
+// var a=2,b=1;
+
+// document.write(--a)
+// document.write(`<br>${--a - --b}`)
+// document.write(`<br>${--a - --b + ++b}`)
+// document.write(`<br>${--a - --b + ++b + b--}`)
+// var Results=    --a - --b + ++b +b--;
+
+
+// document.write(`<br> a is  ${a}
+// <br> b is  ${b}
+// <br> results is ${Results}`)
+
+
+
+
+
+
+
+
+
+// // 33.Write a program that takes input a name from user &
+// // greet the user.
+
+
+// var username = prompt("please enter your name")
+// alert("welcome"+username)
+
+
+
+
+
+
+
+
+
+
+
+// // 34.Write a program to take input a number from user &
+// // display it’s multiplication table on your browser.If user
+// // does not enter a new number, multiplication table of 5
+// // should be displayed by default.
+
+
+// var num = +prompt("please enter any number",5)
+// document.write(`${num} x 1 = ${num*1}
+// <br>${num} x 1 = ${num*2}
+// <br>${num} x 1 = ${num*3}
+// <br>${num} x 1 = ${num*4}
+// <br>${num} x 1 = ${num*5}
+// <br>${num} x 1 = ${num*6}
+// <br>${num} x 1 = ${num*7}
+// <br>${num} x 1 = ${num*8}
+// <br>${num} x 1 = ${num*9}
+// <br>${num} x 1 = ${num*10}`)
+
+
+
+
+
+
+
+
+
+
+// // 35.
+// // a) Take three subjects name from user and store them in 3
+// // different variables.
+// //     b) Total marks for each subject is 100, store it in another
+// // variable.
+// //     c) Take obtained marks for first subject from user and
+// // stored it in different variable.
+// //     ALERTS | JAVASCRIPT
+// // Page 3 of 3
+// // d) Take obtained marks for remaining 2 subjects from user
+// // and store them in variables.
+// //     e) Now calculate total marks and percentage and show the
+// // result in browser like this.(Hint: user table)
+
+
+
+// var subject1 = prompt("write the subject")
+// var subject2 = prompt("write the subject")
+// var subject3 = prompt("write the subject")
+
+// var obtainedmarks1 = +prompt("obtained marks of "+ subject1)
+// var obtainedmarks2 = +prompt("obtained marks of "+ subject2)
+// var obtainedmarks3 = +prompt("obtained marks of "+ subject3)
+
+// var totalmarks = 100
+// var totalresults = obtainedmarks1+obtainedmarks2+obtainedmarks3
+// var gtotalmarks = totalmarks*3
+// document.write(`
+// <table>
+// <tr>
+// <td><h1>Subject<h1></td>
+// <td><h1>Total Marks<h1></td>
+// <td><h1>Obtained Marks<h1></td>
+// <td><h1>Percentage<h1></td>
+// </tr>
+// <tr>
+// <td>${subject1}</td>
+// <td>${totalmarks}</td>
+// <td>${obtainedmarks1}</td>
+// <td>${(obtainedmarks1/totalmarks)*100}%</td>
+// </tr>
+// <tr>
+// <td>${subject2}</td>
+// <td>${totalmarks}</td>
+// <td>${obtainedmarks2}</td>
+// <td>${(obtainedmarks2/totalmarks)*100}%</td>
+// </tr>
+// <tr>
+// <td>${subject3}</td>
+// <td>${totalmarks}</td>
+// <td>${obtainedmarks3}</td>
+// <td>${(obtainedmarks3/totalmarks)*100}%</td>
+// </tr>
+// <tr>
+// <td></td>
+// <td>${gtotalmarks}</td>
+// <td>${totalresults}</td>
+// <td>${(totalresults/gtotalmarks)*100}%</td>
+
+// </table>
+// `)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
