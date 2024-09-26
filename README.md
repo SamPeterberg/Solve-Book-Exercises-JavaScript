@@ -15,4 +15,4 @@ The exercises cover topics such as:
 - Arrays and Objects
 - Events and DOM Manipulation
 - And much more...
-
+.
