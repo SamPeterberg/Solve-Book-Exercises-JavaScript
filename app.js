@@ -1795,7 +1795,218 @@
 
 
 
+// 11. Write a program that takes user input. Convert and
+// show the input in title case.
+
+// var a = 'javascript'
+// var b = a.slice(0,1).toUpperCase()
+// var c = a.slice(1,999)
+// var f = b+c 
+// console.log(f);
 
 
+// 13. Write a program to take user input and store username
+// in a variable. If the username contains any special symbol
+// among [@ . , !], prompt the user to enter a valid username.
+// For character codes of [@ .
+
+// var userName=prompt('write the user name')
+// if(userName.includes('!')||userName.includes('@')||userName.includes('$')||userName.includes('-')||userName.includes('_')||userName.includes('#')||userName.includes('&')||userName.includes('*')||userName.includes('/')||userName.includes('~')||userName.includes('`')){
+//     alert('Write a valid username')
+// }
+// else{
+//     alert('username accepted')
+// }
+
+
+
+
+// 14. You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array. After searching, prompt the user whether the given
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user
+// enters cookie, Cookie, COOKIE or coOkIE, program
+// should inform about its availability. 
+
+// var  A = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+// document.write(A)
+// var b = prompt('search any product').toLocaleLowerCase()
+// if (A.includes(b)){
+//     alert("the item is available")
+// }else{
+//     alert('item is not available')
+// }
+
+
+
+// 16. Write a program to convert the following string to an
+// array using string split method.
+
+// var university = 'University of Karachi';
+// for (var i = 0; i < university.length; i++) {
+//     document.write(university[i]+'<br/>')
+// }
+
+
+
+// 17. Write a program to display the last character of a user
+// input.
+
+// var a = 'pakistan'
+// var b = a.charAt(a.length-1)
+// document.write(b)
+
+
+// ===================================>>>>>>>>>>Chapter 26-30 <<<<<<<<<<<<<<<<<===============================
+
+
+// 1. Write a program that takes a positive integer from user &
+// display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+
+// var a = 3.5232
+// var b = Math.round(a)
+// var c = Math.floor(a)
+// var d = Math.ceil(a)
+// document.write(`value = ${a} <br/> round value = ${b} <br/> floor value = ${c} <br/> ceil value = ${d}`)
+
+
+// 2. Write a program that takes a negative floating point
+// number from user & display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+
+// var a = +prompt("write any negative decimal number")
+// var b = Math.round(a)
+// var c = Math.floor(a)
+// var d = Math.ceil(a)
+// document.write(`value = ${a} <br/> round value = ${b} <br/> floor value = ${c} <br/> ceil value = ${d}`)
+
+
+
+
+// 4. Write a program that simulates a dice using random()
+// method of JS Math class. Display the value of dice in your
+// browser.:
+
+// var value = Math.random()*6
+// value = Math.round(value)
+
+// document.write(`dice value = ${value}`)
+
+
+// 5. Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+
+
+// var a = Math.random()*2
+// a= Math.round(a)
+
+// if(a==1){
+//     document.write (`head = ${a}`)
+// }else if (a==2){
+//     document.write(`tails = ${a} `)
+// }
+
+
+
+// 6. Write a program that shows a random number between 1
+// and 100 in your browser.
+
+// var a = Math.random()*100
+// a= Math.round(a)
+// document.write(`Random number from 1 to 100 is ${a}`)
+
+
+// 8. Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+
+// var a = Math.random()*10
+// a= Math.round(a)
+// var b = prompt("write the secret number from 1 to 10")
+// if (b==a){
+//     alert("congratulations")
+// }else{
+//     alert("better luck next time   ")
+// }
+
+
+
+// ===================================>>>>>>>>>>Chapter 31-34 <<<<<<<<<<<<<<<<<===============================
+
+
+// 1. Write a program that displays current date and time in
+// your browser.
+
+// var d = new Date()
+// document.write(d)
+
+
+// 2. Write a program that alerts the current month in words.
+// For example December.
+
+
+
+// var b = ['jan','feb','mar','apr','june','july','aug','oct','nov','dec']
+// var a=  new Date()
+// a=a.getMonth()
+// document.write(b[a])
+
+
+// 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show
+// Sun.
+
+// var days=['sun','mon','tue','wed','thur','fri','sat']
+// var a = new Date()
+// a=a.getDay()
+// document.write(days[a])
+
+
+// 4. Write a program that displays a message “It’s Fun day” if
+// its Saturday or Sunday today.
+
+// var days=['sun','mon','tue','wed','thur','fri','sat']
+// var a = new Date()
+// a=a.getDay()
+// a=days[a]
+// if(a=='sun'&& a=='sat'){
+//     alert('yeah its fun day')
+// }else{
+//     alert('chal aey brwey kaam pe ja ')
+// }
+
+
+
+// 5. Write a program that shows the message “First fifteen
+// days of the month” if the date is less than 16th of the month
+// else shows “Last days of the month”.
+
+// var a = new Date()
+// a=a.getDay()
+// if(a<16){
+//     alert('first fifteen days of month')
+// }else{
+//     alert('last fifteen days of month')
+// }
+
+
+
+// 6. Write a program that determines the minutes since
+// midnight, Jan. 1, 1970 and assigns it to a variable that
+// hasn't been declared beforehand. Use any variable you like
+// to represent the Date object.
 
 
