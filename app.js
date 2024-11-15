@@ -1361,11 +1361,13 @@
 // hasn't been declared beforehand. Use any variable you like
 // to represent the Date object.
 
-// var a = new Date()
-// var b = a.getTime()
-// var c = a.getTime()/10/60
+// var a = new Date();
+// var b = a.getTime();
+// var c = b / 1000 / 60 / 60 / 24 / 365;
 
-// document.write(`current date ${a} <br/> Elapsed milliseconds ${b} <br/> Elapsed minutes ${c}`)
+// document.write(
+//   `current date ${a} <br/> Elapsed milliseconds ${b} <br/> Elapsed minutes ${c}`
+// );
 
 // 7. Write a program that tests whether it's before noon and
 // alert “Its AM” else “its PM”.
@@ -1417,4 +1419,29 @@
 // 13. Write a program to ask the user about his age. Calculate
 // and show his birth year in your browser.
 
-var age = +prompt("write your age");
+// var date = new Date();
+// date = date.getFullYear();
+// var age = +prompt("write your age");
+// age = date - age;
+// console.log(age);
+
+// 14. Write a program to generate your K-Electric bill in your
+// browser. All the amounts should be rounded off to 2
+// decimal places. Display the following fields:
+// a. Customer Name
+// b. Current Month
+// DATE METHODS | JAVASCRIPT
+// c. Number of units
+// d. Charges per unit
+// e. Net Amount Payable (within Due Date)
+// f. Late Payment Surcharge
+// g. Gross Amount Payable (after Due Date)
+
+// var custName = "sameer";
+// var chPerUnit = 12;
+// var noOfunits = 222;
+// var NABDD = chPerUnit * noOfunits;
+// var latePay = 350;
+// var NAADD = NABDD + latePay;
+// var currDate = new Date().getMonth();
+// console.log();
