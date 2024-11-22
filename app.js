@@ -1445,3 +1445,58 @@
 // var NAADD = NABDD + latePay;
 // var currDate = new Date().getMonth();
 // console.log();
+
+// ===========>>>>>>>chapter 35-38<<<<<<<=======================
+
+// 1. Write a function that displays current date & time in your
+// browser.
+
+// function date() {
+//   return new Date();
+// }
+// console.log(date());
+
+// 2. Write a function that takes first & last name and then it
+// greets the user using his full name.
+
+// function fullname(a, b) {
+//   return a + b;
+// }
+// console.log(fullname("sameer", "ahmed"));
+
+// 3. Write a function that adds two numbers (input by user)
+// and returns the sum of two numbers.
+
+// function add(a, b) {
+//   return a + b;
+// }
+// console.log(add(2, 5));
+
+// 5. Write a function that squares its argument.
+
+// function square(a) {
+//   return a * a;
+// }
+// console.log(square(5));
+
+// 6. Write a function that computes factorial of a number.
+let num = +prompt("enter any number for factorial")
+function factorial(){
+for (let i = 0; i < num.length; i++) {
+    num*i
+    
+}
+}
+
+// 7. Write a function that take start and end number as inputs
+// & display counting in your browser.
+
+// let num1 = +prompt("write the starting number");
+// let num2 = +prompt("write the ending number");
+ 
+// function num() {
+//   for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//   }
+// }
+   
