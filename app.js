@@ -1480,23 +1480,22 @@
 // console.log(square(5));
 
 // 6. Write a function that computes factorial of a number.
-let num = +prompt("enter any number for factorial")
-function factorial(){
-for (let i = 0; i < num.length; i++) {
-    num*i
-    
+
+let num = +prompt("enter any number for factorial");
+function factorial() {
+  for (let i = num - 1; i > 0; i--) { 
+  }
 }
-}
+factorial();
 
 // 7. Write a function that take start and end number as inputs
 // & display counting in your browser.
 
 // let num1 = +prompt("write the starting number");
 // let num2 = +prompt("write the ending number");
- 
+
 // function num() {
 //   for (let i = 0; i < array.length; i++) {
 //     const element = array[i];
 //   }
 // }
-   
