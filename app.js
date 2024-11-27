@@ -1481,12 +1481,12 @@
 
 // 6. Write a function that computes factorial of a number.
 
-let num = +prompt("enter any number for factorial");
-function factorial() {
-  for (let i = num - 1; i > 0; i--) { 
-  }
-}
-factorial();
+// let num = +prompt("enter any number for factorial");
+// function factorial() {
+//   for (let i = num - 1; i > 0; i--) { 
+//   }
+// }
+// factorial();
 
 // 7. Write a function that take start and end number as inputs
 // & display counting in your browser.
@@ -1499,3 +1499,44 @@ factorial();
 //     const element = array[i];
 //   }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
