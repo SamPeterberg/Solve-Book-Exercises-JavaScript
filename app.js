@@ -1483,7 +1483,7 @@
 
 // let num = +prompt("enter any number for factorial");
 // function factorial() {
-//   for (let i = num - 1; i > 0; i--) { 
+//   for (let i = num - 1; i > 0; i--) {
 //   }
 // }
 // factorial();
@@ -1495,10 +1495,60 @@
 // let num2 = +prompt("write the ending number");
 
 // function num() {
-//   for (let i = 0; i < array.length; i++) {
-//     const element = array[i];
-//   }
+//     for (let i = num1; i < num2+1; i++) {
+//         console.log(i);
+//     }
 // }
+// num()
+
+// // 8. Write a nested function that computes hypotenuse of a
+// // right angle triangle.
+// // Hypotenuse2 = Base2 + Perpendicular2
+// // Take base and perpendicular as inputs.
+// // Outer function : calculateHypotenuse()
+// // Inner function: calculateSquare()
+
+// let base = +prompt("write the base of triangle")
+// let perpendicular = +prompt("write the perpendicular of triangle")
+// function calculateHypotenuse(){
+//    function calculateSquare(){
+//      let hypotenuse2 = base*base + perpendicular*perpendicular
+//     return hypotenuse2
+//    }
+//    return calculateSquare()
+// }
+//  console.log(calculateHypotenuse())
+
+// 9. Write a function that calculates the area of a rectangle.
+//  A = width * height
+//  Pass width and height in following manner:
+
+
+
+
+// i. Arguments as value
+// function Area(a, b) {
+//   let area = a * b;
+//   return area;
+// }
+// console.log(
+//     Area(
+//         +prompt("write the width of rectangle"),
+//         +prompt("write the height of rectangle")
+//     )
+// );
+
+
+
+// ii. Arguments as variables
+// let width = +prompt("write the width of rectangle")
+// let height = +prompt("write the height of rectangle")
+
+// function area(){
+//     let area = width * height
+//     return area
+// }
+// area()
 
 
 
@@ -1506,37 +1556,11 @@
 
 
 
+// 10. Write a JavaScript function that checks whether a passed
+// string is palindrome or not?
+// A palindrome is word, phrase, or sequence that reads the same backward as
+// forward, e.g., madam.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function palandrom(){
+    let palandrom = 
+}
