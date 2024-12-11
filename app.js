@@ -1523,9 +1523,6 @@
 //  A = width * height
 //  Pass width and height in following manner:
 
-
-
-
 // i. Arguments as value
 // function Area(a, b) {
 //   let area = a * b;
@@ -1538,8 +1535,6 @@
 //     )
 // );
 
-
-
 // ii. Arguments as variables
 // let width = +prompt("write the width of rectangle")
 // let height = +prompt("write the height of rectangle")
@@ -1550,17 +1545,8 @@
 // }
 // area()
 
-
-
-
-
-
-
 // 10. Write a JavaScript function that checks whether a passed
 // string is palindrome or not?
 // A palindrome is word, phrase, or sequence that reads the same backward as
 // forward, e.g., madam.
 
-function palandrom(){
-    let palandrom = 
-}
