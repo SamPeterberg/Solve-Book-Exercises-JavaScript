@@ -1550,3 +1550,24 @@
 // A palindrome is word, phrase, or sequence that reads the same backward as
 // forward, e.g., madam.
 
+// function palandrom(){
+
+//     let word = prompt("write the word to check its palndrom or not");
+//     let reverseWord = word.split('').reverse().join('')
+//     if(word==reverseWord){
+//         alert("the word is palandrom")
+//     }
+//     else{
+//         alert("the word is not palindron")
+//     }
+// }
+// palandrom()
+
+// 11. Write a JavaScript function that accepts a string as a
+// parameter and converts the first letter of each word of the
+// string in upper case.
+// EXAMPLE STRING : 'the quick brown fox'
+// EXPECTED OUTPUT : 'The Quick Brown Fox'
+
+let string = prompt("write any sentence");
+let upperCaseString = string.split(" ");
